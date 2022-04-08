@@ -40,9 +40,25 @@ body{
     position: relative;
     margin-top: 116px;
     margin-bottom: 10px;
-    margin-left: 50px;
+    margin-left: 200px;
     margin-right: 0px;
     left: 0px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+.font_section1{
+    font-family:'Noto Sans KR', sans-serif;
+    font-size: 100px 1.4em;
+    color: white;
+    
+}
+#svg1_section1{
+    position:relative;
+    margin-top: 170px;
+    margin-bottom: 0px;
+    margin-left: 300px;
+    margin-right: 0px;
     grid-area: 1 / 1 / 2 / 2;
     justify-self: start;
     align-self: start;
