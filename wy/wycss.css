@@ -1,13 +1,42 @@
+.sectionvanwooyoung {
+
+    width: 978px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .about-us-text {
     font-size: 55px;
+    
+    
 }
 
 .about-us-secondary-text {
 
     font-size: 20px;
+ 
 }
 
 .profile-img {
     width: 213px;
+    
+    
+}
 
+.profile-table {
+    border-width: 0px;
+    border-spacing: 40px;
+    text-align: center;
+
+}
+
+
+
+.profile-position-tr {
+    color: grey;
+    font-style: italic;
+}
+
+.profile-paragraph-tr {
+    text-align: left;
 }
