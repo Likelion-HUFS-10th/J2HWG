@@ -1,42 +1,74 @@
-.sectionvanwooyoung {
 
-    width: 978px;
-    margin-left: auto;
-    margin-right: auto;
+.cross-svg {
+    width: 55px;
 }
 
 .about-us-text {
     font-size: 55px;
-    
-    
+    text-align: left;
+    font-family: serif, sans-serif;
 }
 
-.about-us-secondary-text {
 
+.about-us-secondary-text {
     font-size: 20px;
- 
+    text-align: left;
+    height: 40px;
 }
 
 .profile-img {
     width: 213px;
-    
-    
+     
+}
+
+.profile-img-tr {
+
+    height: 260px;
 }
 
 .profile-table {
+    
+    width: 1000px;
     border-width: 0px;
-    border-spacing: 40px;
     text-align: center;
+    border-spacing: 40px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
 
 }
 
 
 
-.profile-position-tr {
-    color: grey;
+.profile-name-tr {
+    font-family: sans-serif;
+    letter-spacing: 0.2em;
+    color: #4D4A4A;
     font-style: italic;
+    font-weight: normal;
+    
+    
+}
+
+
+.profile-position-tr {
+    color: rgb(133, 133, 133);
+    font-style: italic;
+    letter-spacing: 0.2em;
+    font-weight: normal;
+    font-family: serif;
+    
+
 }
 
 .profile-paragraph-tr {
     text-align: left;
+    font-size: 16px;
+    font-family: serif;
+}
+
+.void-tr {
+    height: 50px;
 }
