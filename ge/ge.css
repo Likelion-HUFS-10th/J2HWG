@@ -4,13 +4,11 @@
     font-family: 'Montserrat';
 }
 
-
 header {display: flex;
-    justify-content: space-between;
-    height: 100px;
+    height: 80px;
 }
 header h1 {position:absolute;left:-2000px;}
-header nav ul {display:flex;text-align: center;}
+header nav ul {display:flex;text-align: center; float: left; justify-content: space-between;}
 
 .menu {
     padding: 20px 10px;
@@ -18,16 +16,36 @@ header nav ul {display:flex;text-align: center;}
 }
 
 .sns {
-    padding-right: 20px;
+    padding-right: 1px;
+    flex: 1 1 10px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .logo {
     height: 50px;
     width: 270px;
     margin-left: 280px;
+    margin-right: 300px;
     margin-top: auto;
     margin-bottom: auto;
 }
+
+.box-container {
+    display: flex;
+    float: right;
+    margin-top: 30px;
+}
+
+.box-container-2 {
+    display: flex;
+    float: right;
+    margin-right: 200px;
+    margin-bottom: 80px;
+}
+
+/* 다음 파트 빈 공간. 지우고 2번째 파트부터 들어가기. */
+
 .content {
     height: 710px;
     padding: 30px;
@@ -37,7 +55,9 @@ header nav ul {display:flex;text-align: center;}
     border: 1px solid black;
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
 }
-a:link, a:visited, a:hover, a:active {color:#4b4c46;}
+/* 여기까지 지우기 */
+
+a:link, a:visited, a:hover{color:#4b4c46;} a:active{color:#ffc045;}
 
 .copyright {
     float:left;
@@ -47,18 +67,19 @@ a:link, a:visited, a:hover, a:active {color:#4b4c46;}
 
 .site {
     float:left;
+    padding-right: 10px;
     margin-right:10px;
     border-right:1px solid #4b4c46;
 }
 
 .address {
     float:right;
-    margin-right:30px;
+    margin: right 10px;
 }
 
 footer {
     font-size: 12px;
-    height: 150px;
+    height: 120px;
     display: flex;
     justify-content: space-between;
     margin-top: auto;
