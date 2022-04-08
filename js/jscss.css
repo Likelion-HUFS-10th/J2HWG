@@ -1,0 +1,31 @@
+#p2{
+    position: relative;
+    margin-top: 52px;
+    margin-right: 0px;
+    margin-bottom:21px;
+    margin-left: calc((100% - 980px) * 0.5);
+    left: 58px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+    justify-self: start;
+    align-self: start;
+}
+.part2{
+    overflow-wrap: break-word;
+    text-align: start;
+    height: 597px;
+    width: 62.67px;
+}
+.font_2{
+    color: rgb(var(--color_15));
+}
+:root{
+    --color_11: 255,255,255;
+    --color_15: 0,0,0;
+    --font_2: normal normal normal 55px/1.4em geogia,palatino, 'bookantiqua', 'palatino linotype', serif;
+    --font_5:normal normal normal 29px/1.4em fbbluegothicl,serif;
+    --font_7:normal normal normal 20px/1.4em fbbluegothicl,serif;
+    --font_9:normal normal normal 12px/1.4em fbbluegothicl,serif;
+}
