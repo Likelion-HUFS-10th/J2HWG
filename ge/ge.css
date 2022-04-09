@@ -4,11 +4,35 @@
     font-family: 'Montserrat';
 }
 
-header {display: flex;
-    height: 80px;
+#btn {
+    color: #f0f1f2;
+    border: 2px solid #8d2789;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
 }
+
+.gojung {
+    background-color: #f0f1f2;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    border-bottom:3px solid #8d2789;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    transition: all 0.3s ease-in-out;
+}
+.header {display: flex;
+    height: 80px;
+    padding-top: 50px;
+}
+
 header h1 {position:absolute;left:-2000px;}
 header nav ul {display:flex;text-align: center; float: left; justify-content: space-between;}
+
 
 .menu {
     padding: 20px 10px;
