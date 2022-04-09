@@ -52,12 +52,22 @@ body {
 }
 #textset_1 {
     position: relative;
-    margin-top: 116px;
+    margin-top: 100px;
     margin-bottom: 10px;
     margin-left: 200px;
     margin-right: 0px;
     left: 0px;
     grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#textset_2 {
+    position: relative;
+    width: 839px;
+    height: 29px;
+    margin: 30px 0px 31px 0px;
+    left: 200px;
+    grid-area: 3 / 1 / 4 / 2;
     justify-self: start;
     align-self: start;
 }
@@ -70,9 +80,9 @@ body {
 }
 #svg1_section1 {
     position:relative;
-    margin-top: 232px;
+    margin-top: 190px;
     margin-bottom: 0px;
-    margin-left: 364px;
+    margin-left: 450px;
     margin-right: 0px;
     grid-area: 1 / 1 / 2 / 2;
     justify-self: start;
