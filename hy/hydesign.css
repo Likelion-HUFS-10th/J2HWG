@@ -95,7 +95,7 @@ body {
     position: relative;
     width: 144.25px;
     height: 144.25px;
-    margin: 98px 0px 28px 0px;
+    margin: 80px 0px 16px 0px;
     left: 200px;
     grid-area: 1 / 1 / 2 / 2;
     justify-self: start;
@@ -119,4 +119,131 @@ body {
 #svg2_box {
     width: 102px;
     height: 102px;
+}
+#lower_part1_txt {
+    position: relative;
+    width: 187px;
+    height: 33px;
+    margin: 0px 0px 0px 0px;
+    left: 180px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#lower_part2_svg {
+    position: relative;
+    width: 144.25px;
+    height: 144.25px;
+    margin: 80px 0px 16px 0px;
+    left: 524.25px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#svg3_mid {
+    width: 144.25px;
+    height: 144.25px;
+    border-radius: 50%;
+    background-color: white;
+}
+#svg3_nearest {
+    position: relative;
+    display: grid;
+    width: 102px;
+    height: 102px;
+    padding: 21.125px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+#svg3_box {
+    width: 102px;
+    height: 102px;
+}
+#lower_part2_txt {
+    position: relative;
+    width: 187px;
+    height: 33px;
+    margin: 0px 0px 0px 0px;
+    left: 504.25px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#lower_part3_svg {
+    position: relative;
+    width: 144.25px;
+    height: 144.25px;
+    margin: 80px 0px 16px 0px;
+    left: 848.5px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#svg4_mid {
+    width: 144.25px;
+    height: 144.25px;
+    border-radius: 50%;
+    background-color: white;
+}
+#svg4_nearest {
+    position: relative;
+    display: grid;
+    width: 102px;
+    height: 102px;
+    padding: 21.125px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+#svg4_box {
+    width: 102px;
+    height: 102px;
+}
+#lower_part3_txt {
+    position: relative;
+    width: 187px;
+    height: 33px;
+    margin: 0px 0px 0px 0px;
+    left: 828.5px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#lower_part4_svg {
+    position: relative;
+    width: 144.25px;
+    height: 144.25px;
+    margin: 80px 0px 16px 0px;
+    left: 1172.75px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#svg5_mid {
+    width: 144.25px;
+    height: 144.25px;
+    border-radius: 50%;
+    background-color: white;
+}
+#svg5_nearest {
+    position: relative;
+    display: grid;
+    width: 102px;
+    height: 102px;
+    padding: 21.125px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+#svg5_box {
+    width: 102px;
+    height: 102px;
+}
+#lower_part4_txt {
+    position: relative;
+    width: 187px;
+    height: 33px;
+    margin: 0px 0px 0px 0px;
+    left: 1152.75px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
 }
