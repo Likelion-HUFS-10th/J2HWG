@@ -4,3 +4,124 @@ main{
     width: 100%;
     height: auto;
 }
+
+.gojung {
+    background-color: #f0f1f2;
+    height: 50px;
+    width: 100%;
+    margin-top: 0%;
+    position: fixed;
+    border-bottom:3px solid #8d2789;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.gojung:hover {
+    background-color: white;
+}
+
+#btn {
+    color: black;
+    border: 2px solid #8d2789;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    margin-left: 15px;
+    background-color: #f0f1f2;
+ 
+}
+
+#btn :hover {
+    background-color: #8d2789;
+    color: white;
+}
+
+.header {display: flex;
+    height: 80px;
+    padding-top: 50px;
+}
+
+header h1 {position:absolute;left:-2000px;}
+header nav ul {display:flex;text-align: center; float: left; justify-content: space-between;}
+
+
+.menu {
+    padding: 20px 10px;
+    width: 88px;
+}
+
+.sns {
+    padding-right: 1px;
+    flex: 1 1 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo {
+    height: 50px;
+    width: 270px;
+    margin-left: 280px;
+    margin-right: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.box-container {
+    display: flex;
+    float: right;
+    margin-top: 30px;
+}
+
+.box-container-2 {
+    display: flex;
+    float: right;
+    margin-right: 200px;
+    margin-bottom: 80px;
+}
+
+/* 다음 파트 빈 공간. 지우고 2번째 파트부터 들어가기. */
+
+.content {
+    height: 710px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+/* 여기까지 지우기 */
+
+a:link, a:visited, a:hover{color:#4b4c46;} a:active{color:#ffc045;}
+
+.copyright {
+    float:left;
+    margin-left:200px;
+    margin-right:70px;
+}
+
+.site {
+    float:left;
+    padding-right: 10px;
+    margin-right:10px;
+    border-right:1px solid #4b4c46;
+}
+
+.address {
+    float:right;
+    margin: right 10px;
+}
+
+footer {
+    font-size: 12px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
