@@ -109,7 +109,7 @@ body {
     grid-template-rows: 1fr;
     grid-template-columns: 100%;
 }
-.buttons_frame {
+#button_l_frame {
     width: 159px;
     height: 42px;
     position: relative;
@@ -119,31 +119,99 @@ body {
     justify-self: start;
     align-self: start;
 }
-.button {
-    height: 42px;
+
+.button_l_button {
     text-align: initial;
     display: flex;
     align-items: center;
     box-sizing: border-box;
     width: max-content;
+    height: 42px;
     justify-content: center;
     min-width: 100%;
+    text-decoration-line: none;
+    border: 1.5px solid white;
 }
-.button_l_button {
+.button_l_button:hover {
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: max-content;
+    height: 42px;
+    justify-content: center;
+    min-width: 100%;
+    text-decoration-line: none;
+    border: 1.5px solid rgb(252,211,7);
+    transition: all 0.4s;
+}
+.button_l_txt {
     width: 159px;
     height: 42px;
-    background-color: transparent;
-    border-color: white;
-    margin: 0px;
-    padding: 0px;
+    font-family:'Noto Sans KR', sans-serif;
+    vertical-align: baseline;
+    margin-top: 16px;
+    color: white;
+    text-align: center;
 }
-
-.button_l_txt {
+.button_l_txt:hover {
+    width: 159px;
+    height: 42px;
+    font-family:'Noto Sans KR', sans-serif;
+    vertical-align: baseline;
+    color: rgb(252,211,7);
+    transition: all 0.4s;
+}
+#button_r_frame {
+    width: 159px;
+    height: 42px;
+    position: relative;
+    margin: 0px;
+    left: 204px;
+    grid-area : 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+.button_r_button {
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: max-content;
+    height: 42px;
+    justify-content: center;
+    min-width: 100%;
+    text-decoration-line: none;
+    border: 1.5px solid white;
+}
+.button_r_button:hover {
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: max-content;
+    height: 42px;
+    justify-content: center;
+    min-width: 100%;
+    text-decoration-line: none;
+    border: 1.5px solid rgb(252,211,7);
+    transition: all 0.4s;
+}
+.button_r_txt {
+    width: 159px;
+    height: 42px;
+    text-align: center;
+    margin-top: 16px;
     font-family:'Noto Sans KR', sans-serif;
     vertical-align: baseline;
     color: white;
 }
-
+.button_r_txt:hover {
+    font-family:'Noto Sans KR', sans-serif;
+    vertical-align: baseline;
+    color: rgb(252,211,7);
+    transition: all 0.4s;
+}
 #lower_half {
     background-color: rgb(252,211,7);
     width:100%;
