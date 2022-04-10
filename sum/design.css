@@ -575,3 +575,84 @@ footer {
     float:left;
     margin-top: 10px;
 }
+.jspart {
+    background-color: rgb(33, 33, 33);
+    color: white;
+    min-width: 980px;
+    padding: 30px;
+    display: flex;
+    margin:0/0/0/0;
+  }
+  .jspart_top {
+    margin: auto;
+  }
+  .jspart_title {
+    margin-bottom: 30px;
+  }
+  .jspart_part {
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 20px 0px;
+  }
+  .part1 {
+    font-size: 18px;
+    float: left;
+    margin-right: 100px;
+  }
+  .part1-name {
+    color: black;
+  }
+  .part1 img {
+    margin-right: 15px;
+  }
+  .part1_address {
+    margin-bottom: 5px;
+  }
+  .part2 {
+    float: right;
+  }
+  .part2 hr {
+    background-color: white;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .part2_text {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .form_part {
+    overflow: hidden;
+  }
+  .form_part1 {
+    float: left;
+  }
+  .form_part2 {
+    float: right;
+  }
+  form * {
+    font-size: 16px;
+    color: black;
+  }
+
+  .form_part input {
+    padding: 5px 3px 5px 24px;
+    margin-bottom: 5px;
+  }
+  .form_part textarea {
+    width: 200px;
+    height: 95px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .form_button {
+    margin-top: 5px;
+    text-align: right;
+  }
+  .form_button button {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    background-color: yellow;
+  }
