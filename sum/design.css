@@ -4,7 +4,15 @@ main{
     width: 100%;
     height: auto;
 }
-
+body {
+    background-color:white;
+    padding:0px;
+    margin-left : 0px;
+    margin-right : 0px;
+    margin-bottom : 0px;
+    margin-top : 0px;
+}
+/* HEADER/FOOTER BY GE */
 .gojung {
     background-color: #f0f1f2;
     height: 50px;
@@ -125,7 +133,379 @@ footer {
     margin-bottom: auto;
 
 }
+/* Section_1 by HY */
+#svg1 {
+    width: 34px;
+    height: 34px;
+    fill: rgb(252,211,7);
+    
+}
+#svg2 {
+    width: 102px;
+    height: 102px;
+    fill: none;
+    stroke: #000;
+    stroke-linejoin: round;
+    stroke-width: 4px;
+}
+#section1_frame {
+    display: flex;
+    flex-direction:column;
+    width:100%;
+    height:950px;
+    background-color:black;
+    margin-bottom: 60px;
+}
+#upper_half {
+    width:100%;
+    height:600px;
+    background-color:green;
+}
+#upper_half_bg {
+    background:url(../img/section1_cover.jpeg);
+    background-size:cover;
+    width:100%;
+    height:600px;
+}
+#upper_content_container {
+    display: grid;
+    grid-template-rows: repeat(3, min-content) 1fr;
+    grid-template-columns:100%;
+    width:100%;
+    height:600px;
+}
+#textset_1 {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 0px;
+    left: 0px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#textset_2 {
+    position: relative;
+    width: 839px;
+    height: 42px;
+    margin: 50px 0px 31px 0px;
+    left: 200px;
+    grid-area: 3 / 1 / 4 / 2;
+    justify-self: start;
+    align-self: start;
+}
+.font_section1 {
+    font-family:'Noto Sans KR', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    
+}
+#svg1_section1 {
+    position:relative;
+    margin-top: 190px;
+    margin-bottom: 0px;
+    margin-left: 450px;
+    margin-right: 0px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#button_box_section1 {
+    width: 363px;
+    height: 42px;
+    position: relative;
+    margin: 0px 0px 62px 0px;
+    left: 200px;
+    grid-area: 4 / 1 /5 /2;
+    align-self: start;
+}
+#button_mid {
+    width: 363px;
+    height: 42px;   
+}
+#button_nearest {
+    position: static;
+    display: grid;
+    width: 363px;
+    height: 42px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+#button_l_frame {
+    width: 159px;
+    height: 42px;
+    position: relative;
+    margin: 0px;
+    left: 0px;
+    grid-area : 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
 
+.button_l_button {
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: max-content;
+    height: 42px;
+    justify-content: center;
+    min-width: 100%;
+    text-decoration-line: none;
+    border: 1.5px solid white;
+}
+.button_l_button:hover {
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: max-content;
+    height: 42px;
+    justify-content: center;
+    min-width: 100%;
+    text-decoration-line: none;
+    border: 1.5px solid rgb(252,211,7);
+    transition: all 0.4s;
+}
+.button_l_txt {
+    width: 159px;
+    height: 42px;
+    font-family:'Noto Sans KR', sans-serif;
+    vertical-align: baseline;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+}
+.button_l_txt:hover {
+    width: 159px;
+    height: 42px;
+    font-family:'Noto Sans KR', sans-serif;
+    vertical-align: baseline;
+    color: rgb(252,211,7);
+    transition: all 0.4s;
+}
+#button_r_frame {
+    width: 159px;
+    height: 42px;
+    position: relative;
+    margin: 0px;
+    left: 204px;
+    grid-area : 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+.button_r_button {
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: max-content;
+    height: 42px;
+    justify-content: center;
+    min-width: 100%;
+    text-decoration-line: none;
+    border: 1.5px solid white;
+}
+.button_r_button:hover {
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: max-content;
+    height: 42px;
+    justify-content: center;
+    min-width: 100%;
+    text-decoration-line: none;
+    border: 1.5px solid rgb(252,211,7);
+    transition: all 0.4s;
+}
+.button_r_txt {
+    width: 159px;
+    height: 42px;
+    text-align: center;
+    margin-top: 25px;
+    font-family:'Noto Sans KR', sans-serif;
+    vertical-align: baseline;
+    color: white;
+}
+.button_r_txt:hover {
+    font-family:'Noto Sans KR', sans-serif;
+    vertical-align: baseline;
+    color: rgb(252,211,7);
+    transition: all 0.4s;
+}
+#lower_half {
+    background-color: rgb(252,211,7);
+    width:100%;
+    height:350px;
+}
+#lower_content_container {
+    width:100%;
+    height:350px;
+    display: grid;
+    min-height: 350px;
+    grid-template-rows: min-content 1fr;
+    grid-template-columns: 100%;    
+}
+#lower_part1_svg {
+    position: relative;
+    width: 144.25px;
+    height: 144.25px;
+    margin: 80px 0px 16px 0px;
+    left: 200px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#svg2_mid {
+    width: 144.25px;
+    height: 144.25px;
+    border-radius: 50%;
+    background-color: white;
+}
+#svg2_nearest {
+    position: relative;
+    display: grid;
+    width: 102px;
+    height: 102px;
+    padding: 21.125px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+#svg2_box {
+    width: 102px;
+    height: 102px;
+}
+#lower_part1_txt {
+    position: relative;
+    width: 187px;
+    height: 33px;
+    margin: 0px 0px 0px 0px;
+    left: 180px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#lower_part2_svg {
+    position: relative;
+    width: 144.25px;
+    height: 144.25px;
+    margin: 80px 0px 16px 0px;
+    left: 524.25px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#svg3_mid {
+    width: 144.25px;
+    height: 144.25px;
+    border-radius: 50%;
+    background-color: white;
+}
+#svg3_nearest {
+    position: relative;
+    display: grid;
+    width: 102px;
+    height: 102px;
+    padding: 21.125px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+#svg3_box {
+    width: 102px;
+    height: 102px;
+}
+#lower_part2_txt {
+    position: relative;
+    width: 187px;
+    height: 33px;
+    margin: 0px 0px 0px 0px;
+    left: 504.25px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#lower_part3_svg {
+    position: relative;
+    width: 144.25px;
+    height: 144.25px;
+    margin: 80px 0px 16px 0px;
+    left: 848.5px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#svg4_mid {
+    width: 144.25px;
+    height: 144.25px;
+    border-radius: 50%;
+    background-color: white;
+}
+#svg4_nearest {
+    position: relative;
+    display: grid;
+    width: 102px;
+    height: 102px;
+    padding: 21.125px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+#svg4_box {
+    width: 102px;
+    height: 102px;
+}
+#lower_part3_txt {
+    position: relative;
+    width: 187px;
+    height: 33px;
+    margin: 0px 0px 0px 0px;
+    left: 828.5px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#lower_part4_svg {
+    position: relative;
+    width: 144.25px;
+    height: 144.25px;
+    margin: 80px 0px 16px 0px;
+    left: 1172.75px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+#svg5_mid {
+    width: 144.25px;
+    height: 144.25px;
+    border-radius: 50%;
+    background-color: white;
+}
+#svg5_nearest {
+    position: relative;
+    display: grid;
+    width: 102px;
+    height: 102px;
+    padding: 21.125px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+#svg5_box {
+    width: 102px;
+    height: 102px;
+}
+#lower_part4_txt {
+    position: relative;
+    width: 187px;
+    height: 33px;
+    margin: 0px 0px 0px 0px;
+    left: 1152.75px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+/* Section_2 by WY */
 .about-us-text {
     font-size: 55px;
     text-align: left;
